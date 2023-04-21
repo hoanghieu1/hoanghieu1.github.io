@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: myFont;
+  src: url('font/UTM\ AMERICANAITALIC.TTF');
+}
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 440px;
+    height: 120px;
+    background-color: #CCFFCC;
+}
+.header .logo{
+    width: 30%;
+    height: 120px;
+    padding-left: 19px;
+}
+.header .logo img{
+    width: 100%;
+    height: 120px;
+}
+.header .menu{
+    width: 70%;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu ul li a{
+    padding: 46px 24px;
+    text-decoration: none;
+    display: block;
+    color: #7e7e31;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu li:hover a{
+    color: black;
+    background-color: white;
+}
+#slider{
+    position: relative;
+    margin-top: 6px;
+    padding-top: 100%;
+    background: url('bannerrrr.jpg') top center / cover no-repeat;
+
+}
+.gioithieu1{
+    display: flex;
+    margin: 20px 40px;
+
+}
+.cot1{
+    width: 50%;
+}
+.cot1 .anhgioithieu1 img{
+    max-width: 100%;
+}
+.anhgioithieu1{
+  position: relative;
+
+}
+.anhgioithieu1 img{
+  transition: transform 0.5s ease-out;
+}
+.anhgioithieu1:hover img{
+  transform: scale(1.2);
+  z-index: 1;
+}
+.anhbim{
+  position: relative;
+}
+.anhbim img{
+  transition: transform 0.5s ease-out0;
+}
+.anhbim:hover img{
+  transform: scale(1.2);
+  z-index: 1;
+}
+.cot1 h2{
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+}
+#mot{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#hai{
+    margin: 10px 20px;
+}
+h2{
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sanpham{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.bim{
+    width: 50%;
+    
+}
+.bim .anhbim img{
+    width: 100%;
+    /* border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); */
+}
+.bim h3{
+    color: blue;
+    text-align: center;
+}
+.bim a {
+    text-align: center;
+    margin:  15px 245px;
+    background-color: red;
+}
+.hanhtrinh img{
+    width: 100%;
+}
+.khuyenmai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .cotmot {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+  }
+  .anhcotmot{
+    width: 100%;
+    position: relative;
+  }
+  .anhcotmot img{
+    width: 100%;
+    transition: transform 0.3s ease-out;
+  }
+  .anhcotmot:hover img{
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .row-col1 {
+    flex-basis: 48%;
+  }
+  
+  .anhrow-col1 {
+    position: relative;
+  }
+  
+  .anhrow-col1 img {
+    width: 100%;
+    transition: transform 0.3s ease-out;
+  }
+  .anhrow-col1:hover img{
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  
+  .anhrow-col1 h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(238, 232, 170, 0.5);
+    color: #8b4513;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .anhrow-col1 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #1C86EE;
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration: none;
+  }
+  .footer {
+    background-color: #CCFFCC;
+    padding: 50px 0;
+  }
+  
+  .gioithieu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 270px;
+  }
+  
+  .gioithieu-item {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .gioithieu-item h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .gioithieu-item p {
+    margin: 0;
+  }
+  
+  .gioithieu-item a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .gioithieu-item a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: myFont;
+  src: url('font/UTM\ AMERICANAITALIC.TTF');
+}
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 440px;
+    height: 120px;
+    background-color: #CCFFCC;
+}
+.header .logo{
+    width: 30%;
+    height: 120px;
+    padding-left: 19px;
+}
+.header .logo img{
+    width: 100%;
+    height: 120px;
+}
+.header .menu{
+    width: 70%;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu ul li a{
+    padding: 46px 24px;
+    text-decoration: none;
+    display: block;
+    color: #7e7e31;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu li:hover a{
+    color: black;
+    background-color: white;
+}
+/* Style cho header */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 24px;
+  color: #666;
+}
+
+/* Style cho main */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style cho form liên hệ */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+label {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+
+
+  
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .row-col1 {
+    flex-basis: 48%;
+  }
+  
+  .anhrow-col1 {
+    position: relative;
+  }
+  
+  .anhrow-col1 img {
+    width: 100%;
+    transition: transform 0.3s ease-out;
+  }
+  .anhrow-col1:hover img{
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  
+  .anhrow-col1 h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(238, 232, 170, 0.5);
+    color: #8b4513;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .anhrow-col1 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #1C86EE;
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration: none;
+  }
+  .footer {
+    background-color: #CCFFCC;
+    padding: 50px 0;
+  }
+  
+  .gioithieu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 270px;
+  }
+  
+  .gioithieu-item {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .gioithieu-item h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .gioithieu-item p {
+    margin: 0;
+  }
+  
+  .gioithieu-item a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .gioithieu-item a:hover {
+    text-decoration: underline;
+  }
